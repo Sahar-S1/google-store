@@ -179,23 +179,35 @@ body
 
 #specifications table
 {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
     width: 100%;
 }
 
-.specificationField
+#specifications table th
+{
+    padding-top: 12px;
+    padding-bottom: 12px;
+    background-color: deepskyblue;
+    color: white;
+    border: 1px solid #ddd;
+    font-size: larger;
+}
+
+#specifications table td
 {
     border: 1px solid #ddd;
     padding: 8px;
     width: 50%;
+}
+.specificationField
+{
     font-size: larger;
     font-weight: bold;
 }
 
 .specificationValue
 {
-    border: 1px solid #ddd;
-    padding: 8px;
-    width: 50%;
     font-size: large;
 }
 
